@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chicken wing recommendations for people in Bristol, UK">
+    <meta name="keywords" content="Chicken wings, chicken, bristol, fast food, pub food, ">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bristol's Best Wing</title>
+</head>
+
+<body>
+    <!--header-->
+    <header id="header">
+        <a href="index.html">
+            <h1 id="title"><i class="fas fa-crown"></i> Bristol's King Wing <i class="fas fa-crown"></i></h1>
+        </a>
+        <!--navigation menu-->
+        <nav>
+            <ul id="navigation">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="meat.html">Meat</a>
+                </li>
+                <li>
+                    <a href="vegan.html">Vegan</a>
+                </li>
+                <li class="show-page-on">
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="profilePage.html"">Profile</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--hero image section-->
+    <section id="banner">
+        <div id="banner-text-2">
+            <h3>think you know a better wing?<br>get in touch and we'll try them out</h3>
+        </div>
+        <!--hero form-->
+        <div>
+            <form method="get" id="form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" class="form-items" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="form-items" required>
+                <label for="rest-label">Restaurant Name:</label>
+                <input type="text" id="rest-label" class="form-items" required>
+                <label for="meat-label">Meat</label>
+                <input type="radio" name="radio" id="meat-label" class="radio" required>
+                <label for="vegan-label">Vegan</label>
+                <input type="radio" name="radio" id="vegan-label" class="radio">
+                <label for="both-label">Both</label>
+                <input type="radio" name="radio" id="both-label" class="radio">
+                <br>
+                <label for="comment-box">Comment:</label>
+                <textarea id="comment-box" cols="30" rows="5"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+    <!--footer-->
+    <footer>
+        <div>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens facebook in a new tab)" class="footer">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens instagram in a new tab)" class="footer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens youtube in a new tab)" class="footer">
+                <i class="fab fa-youtube-square"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- font awesome script --> 
+    <script src="https://kit.fontawesome.com/8d6f6ebaae.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

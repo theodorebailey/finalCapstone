@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Standard HTML heading -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chicken wing recommendations for people in Bristol, UK">
+    <meta name="keywords" content="Chicken wings, chicken, bristol, fast food, pub food, ">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1"> -->
+    <!-- /css/all.min.css -->
+    <title>Bristol's Best Wing</title>
+</head>
+
+<body>
+    <!--header-->
+    <header id="header">
+        <a href="index.html">
+            <h1 id="title"><i class="fas fa-crown"></i> Bristol's King Wing <i class="fas fa-crown"></i></h1>
+        </a>
+        <!--navigation menu-->
+        <nav>
+            <ul id="navigation">
+                <li  class="show-page-on">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="meat.html">Meat</a>
+                </li>
+                <li>
+                    <a href="vegan.html">Vegan</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="profilePage.html">Profile</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--hero image section-->
+    <section>
+        <!-- div banner with secret alert -->
+        <div id="banner" onclick="alert('Hi')">
+        </div>
+    </section>
+    <!--about us section-->
+    <section>
+        <div id="about-us">
+            <h2>
+                <i class="fas fa-crown"></i>
+                <br>
+                about us:
+                <br>
+                We scour Bristols fried chicken scene in search of the finest quality wing
+            </h2>
+            <h3>(so you know exactly where to go when you get that lingering hunger)
+            <br>
+                see below for who we thought was best
+            </h3>
+            <br>
+        </div>
+    </section>
+    <!--central section with meat and vegan options plus scoreboard-->
+    <section id="menu">
+        <!-- boot strap container class -->
+        <div class="container">
+            <div class="col-sm left-box">
+                <a href="meat.html">
+                    <h2>click here if this is you</h2>
+                </a>
+                    <h2>I live to eat succulent meat</h2>
+            </div>
+            <div class="col-sm right-box">
+                    <a href="vegan.html">
+                        <h2>click here if this is you</h2>
+                    </a>
+                    <h2>i am elite without meat.<br>a vegan hero</h2>
+            </div>
+            <div class="col-sm centre-box">
+                <h2>How do we decide who's best? <br>We use our fabled scoring system:</h2>
+                    <br>
+                    <!-- order list -->
+                    <ol class="results">
+                        <li>1. Flavour<br>(That delectable crispiness coating your wing)</li>
+                        <li>2. Texture<br>(Is that wing cooked to perfection?)</li>
+                        <li>3. Balance<br>(Responsibly sourced, locally regenerative)</li>
+                    </ol>
+            </div>
+        </div>
+    </section>
+    <!-- bootstrap container classes -->
+    <div class="container">
+        <!-- fluid row to respond to image quantities -->
+        <div class="container-fluid row">
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/meatWings/bbc-next-level-fried-chicken-dbd69d6.webp" class="image_class img-fluid rounded float-left" alt="image_left">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <!-- button id 1, each has own individual button id -->
+                <button id="btn1" class="like_btn">
+                    <!-- span class to update  -->
+                    <span id="like-01" class="icon">
+                        + to Profile
+                    </span>
+                </button>
+            </div>
+            <!--  -->
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/hero-image.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/vegan-hero-image.jpg" class="img-fluid img-thumbnail" alt="image_right">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <button id="btn2" class="like_btn">
+                    <span id="like-02" class="icon">
+                        + to Profile
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-fluid row">
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/meatWings/__opt__aboutcom__coeus__resources__cont.webp" class="img-fluid img-thumbnail" alt="image_left">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <button id="btn3" class="like_btn">
+                    <span id="like-03" class="icon">
+                        + to Profile
+                    </span>
+                </button>
+            </div>
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/hero-image.jpg" class="img-fluid img-thumbnail" alt=""></div>
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/veganWings/cauliflower_2.jpg" class="img-fluid img-thumbnail" alt="image_right">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <button id="btn4" class="like_btn">
+                    <span id="like-04" class="icon">
+                        + to Profile
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container-fluid row">
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/meatWings/8805-CrispyFriedChicken-mfs-3x2-072-7c7.webp" class="img-fluid img-thumbnail" alt="image_left">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <button id="btn5" class="like_btn">
+                    <span id="like-05" class="icon">
+                        + to Profile
+                    </span>
+                </button>                
+            </div>
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/hero-image.jpg" class="img-fluid" alt=""></div>
+            <div class="col"><img class="img-fluid img-thumbnail" src="../html_css_portfolio_project1-main/assets/images/veganWings/cauliflower_1.jpg" class="img-fluid rounded float-right" alt="image_right">
+                <br>
+                <button class="like">
+                    <span class="icon"><i class="far fa-thumbs-up"></i></i></span>
+                    <span class="count">0</span>
+                </button>
+                <button id="btn6" class="like_btn">
+                    <span id="like-06" class="icon">
+                        + to Profile
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="comment-section">
+            <h2>Leave a Comment</h2>
+          <div class="comment-box">
+            <form action="#">
+                <input type="text" name="full_name" placeholder="Fullname: ">
+                <input type="text" name="email" placeholder="Email Address: ">
+                <textarea name="comment" cols="30" rows="10" placeholder="Leave a comment..."></textarea>
+                <button type="submit">Submit comment</button>
+            </form>
+          </div>
+        </div>
+          
+        <div>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens facebook in a new tab)" class="footer">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens instagram in a new tab)" class="footer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens youtube in a new tab)" class="footer">
+                <i class="fab fa-youtube-square"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- font awesome script --> 
+    <script type="text/javascript" src="index.js">
+    </script>
+    <script src="https://kit.fontawesome.com/8d6f6ebaae.js" crossorigin="anonymous"></script>
+</body>
+</html>

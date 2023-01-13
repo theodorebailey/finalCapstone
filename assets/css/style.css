@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
+
+.comment-section {
+    margin-top: 100px;
+}
+
+.comment-box {
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.comment-box h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.comment-box input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #86b0b6;
+}
+
+.comment-box input:focus {
+    border: 1px solid #000;
+    outline: 0;
+
+
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #86b0b6;
+}
+
+.comment-box textarea:focus {
+    border: 1px solid #000;
+    outline: 0;
+
+}
+
+.comment-box button {
+
+    border: 0;
+    padding: 10px 30px;
+    background: #86b0b6;
+    font: 18px;
+    border-radius: 5px;
+    color: #fff;
+
+}
+
+.comment-box button:hover {
+    background-color: #718a71;
+
+}
+
+.container {
+
+    padding-top: 30px;
+}
+
+.like_button {
+
+    padding: 10px 15px;
+    background: #0080FF;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    outline: none;
+    color: #e8efff;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.img-fluid {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Basic styles reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Anton, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    text-align: centre;
+    padding-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 a {
+    color: white;
+}
+
+li {
+    text-decoration: none;
+}
+
+/* header style */
+
+#header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#title {
+    float: left;
+    margin-left: 10px;
+    font-size: 160%;
+    text-decoration-line: underline;
+    margin-top: 12px;
+    color: rgba(221, 69, 55, 1);
+}
+
+/* inter-page links */
+
+#navigation {
+    list-style-type: none;
+    font-size: 140%;
+    text-align: center;  
+}
+
+#navigation li {
+    font-family: 'Anton', 'Open Sans';
+    display: inline-block;
+    margin-top: 20px;
+    width: 15%;
+}
+
+#navigation a {
+    color: rgba(221, 69, 55, 1);
+}
+
+#navigation a:hover {
+    color: #00475b;
+}
+
+.show-page-on {
+    text-decoration: underline;
+    text-decoration-color: rgba(221, 69, 55, 1);
+}
+
+/* hero image */
+
+#banner {
+    height: 800px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner-text {
+    font-size: 200%;
+    color: white;
+    width: 270px;
+    height: 210px;
+    padding: 10px;
+    background-color: rgba(221, 69, 55, 0.8);
+    margin-top: 80px;
+    margin-left: 20px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+#sub-text {
+    text-transform: uppercase;
+    font-size: 50%;
+    margin-top: 90px;
+    font-family: Anton, sans-serif;
+    position: absolute;
+}
+
+/* about us banner */
+
+#about-us {
+    height: fit-content;
+    width: 100%;
+    background-color: #00475b;
+}
+
+#about-us h2 {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+}
+
+#about-us h3 {
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* meat or vegan section */
+
+#menu {
+    font-size: 110%;
+    position: relative;
+    }
+
+#menu h1, #menu h2, #menu h3, #menu h4, #menu p {
+    color: rgba(221, 69, 55, 1);
+    margin-left: 4px;
+}
+
+.left-box {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 33%;
+    float: left;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+/* .left-box img {
+    background-image: url(../images/vegan-hero-image.jpg);
+      background-size: contain;
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    } */
+    
+/* 
+.left-box h2 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 30%;
+} */
+
+.left-box h2 {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    text-align: center;
+    text-decoration: underline;
+} 
+
+.right-box {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 30%;
+    float: right;
+    margin: 0 auto;
+    /* margin-bottom: 4px;
+    margin-right: 4px; */
+    text-align: center;
+}
+
+/* .right-box img {
+background-image: url(../images/vegan-hero-image.jpg);
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+} */
+
+/* .right-box h2 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 30%;
+} */
+
+.right-box h2 {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.centre-box {
+    border: solid;
+    border-color: rgba(221, 69, 55, 0.9);
+    background-color: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .centre-box img {
+    background-image: url(../images/vegan-hero-image.jpg);
+      background-size: contain;
+      position: absolute;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    }
+     */
+
+.centre-box h2 {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.results {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+.results li {
+    text-align: center;
+    list-style: none;
+}
+
+/* link to contact us page */
+
+#contact-link {
+    height: 100px;
+    width: inherit;
+    border: rgba(221, 69, 55, 0.8);
+    border-width: 4px;
+    border-style: solid;
+    margin: 4px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#contact-link h2 {
+    color: rgba(221, 69, 55, 1);
+    text-align: center;
+    padding-top: 2%;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer {
+    color: rgba(221, 69, 55, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* meat option page */
+
+#meat-banner {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/meat-hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #00475b;
+}
+
+#about {
+    height: fit-content;
+    width: 100%;
+    background-color: #00475b;
+    padding-top: 50px;
+}
+
+#about h2 {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-transform:capitalize;
+}
+
+/* vegan option page */
+
+#vegan-banner {
+    height: 800px;
+    width: 100%;
+    background-image: url(../images/vegan-hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #00475b;
+}
+
+/* location section */
+
+#map {
+    width: 99.5%;
+    height: 490px;
+    border: none;
+}
+
+/* contact us form section */
+
+#banner-text-2 {
+    font-size: 150%;
+    color: white;
+    width: 420px;
+    height: 90px;
+    padding: 10px;
+    background-color: rgba(221, 69, 55, 0.8);
+    margin-top: 120px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+#form {
+    margin-top: 250px;
+    margin-left: 60px;
+    position: absolute;
+    height: 380px;
+    width: 300px;
+    background-color: rgba(221, 69, 55, 0.9);
+    border: rgba(221, 69, 55, 1);
+    border-width: 4px;
+    border-style: solid;
+}
+
+#form label, #form input, #form textarea {
+    margin-left: 4px;
+    margin-bottom: 4px;
+    font-size: 120%;
+}
+
+#form label {
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.form-items {
+    display: block;
+}
+
+.radio {
+    display: inline-block;
+}
+
+#comment-box {
+    resize: none;
+}
+
+input[type=submit] {
+    background: rgb(0, 0, 0,0);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    text-transform: uppercase;
+    font-family: 'Anton', 'sans-serif';
+}
+
+/* responsive elements */
+
+@media screen and (max-width: 1200px) {
+    .centre-box, .right-box, .left-box {
+        float: inherit;
+        width: 80%;
+        margin: 4px auto;
+    }
+
+    .left-box, .right-box {
+        height: 250px;
+    }
+    
+    #map {
+        height: 248px;
+    }
+
+    .right-box h2, .left-box h2 {
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    #banner-text {
+        margin-top: 120px;
+    }
+ 
+    .centre-box, .right-box, .left-box {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    
+    #header #title {
+        float: none;
+        text-align: center;
+    }
+    
+    #navigation {
+        clear: left;
+    }
+
+    /* update background image for ipad to iphone SE */
+
+    #banner-text-2 {
+        font-size: 120%;
+        width: 70%;
+    }
+
+    #banner {
+        background: url(../images/500px-hero-image.jpg) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* update details of restaurant and about the page section */
+
+    .centre-box, .right-box, .left-box {
+        width: 95%;
+    }
+
+    .left-box h2, .right-box h2 {
+        font-size: 200%;
+        padding-top: 8%;
+    }
+
+    /* form responsive elements */
+
+    #banner-text-2 {
+        font-size: 105%;
+        width: 290px;
+        height: 60px;
+        text-align: center;
+        margin-left: 5px;
+        margin-top: 120px;
+    }
+
+    #form {
+        margin-top: 220px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #title {
+        font-size: 130%;
+        margin: 0 auto;
+    }
+
+    #navigation {
+        font-size: 120%;
+    }
+
+    #navigation li {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    #banner-text {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    /* change image seen on small screens in meat and vegan sections */
+
+    #meat-banner, #vegan-banner {
+        background-image: url(../images/500px-hero-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #about-us, #about, .centre-box, #contact-link { 
+        font-size: 90%;
+    }
+}
+
+/* Responsive images */
